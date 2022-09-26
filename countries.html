@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest countries</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="only screen and (min-width: 768px)" href="css/style.css">
+    <link rel="stylesheet" media="only screen and (min-width: 992px)" href="css/style.css">
+    <link rel="stylesheet" media="only screen and (min-width: 1200px)" href="css/style.css">
+
+    <style>
+        *{
+          box-sizing: border-box;
+        }
+       /* Mobile responsive max 600px */
+      @media only screen and (max-width: 600px) {
+        body{
+          background-color: aquamarine;
+        }
+        .countries{
+          display: grid;
+         grid-template-columns: repeat(1, 1fr);
+      }
+      }
+      /* #spinner{
+        display: none;
+      } */
+      </style>
+</head>
+<body>
+    <h2 title="This is mouse over. when you put the mouse in the header you will see this title.">Rest countries and i will coming soon to you!!!</h2>
+    <!-- attribute -->
+    <!-- <a href="https://www.w3schools.com">Visit W3Schools</a> -->
+    <div id="countries" class="countries">
+        
+    </div>
+
+
+    <script src="countries.js"></script>
+</body>
+</html>
